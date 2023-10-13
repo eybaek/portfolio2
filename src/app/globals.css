@@ -8,6 +8,25 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body {
+  margin : 0;
+  background: #303030;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+}
+li {
+  margin: 0 0.5rem 0 0.5rem; 
+}
+.title {
+  text-align: center;
+  color: burlywood;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

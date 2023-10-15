@@ -5,10 +5,11 @@ type Props={}
 
 function Header({}: Props) {
   return (
-    <nav className="flex space-x-4 mb-2">
-      <Link href="/" className="bg-blue-200 rounded px-4 py-2">
-        Home
+    <header className="flex space-x-4 mb-2">
+      <Link href="/">
+        Eunyoung
       </Link>
+      <div></div>
       <Link href="/info" className="bg-blue-200 rounded px-4 py-2">
         Info
       </Link>
@@ -18,7 +19,7 @@ function Header({}: Props) {
       <Link href="/project" className="bg-blue-200 rounded px-4 py-2">
         Project
       </Link>
-    </nav>
+    </header>
   )
 }
 

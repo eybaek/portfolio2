@@ -12,15 +12,23 @@ body {
   margin : 0;
   background: #303030;
   color: white;
+  overflow: scroll;
 }
-nav {
-  list-style-type: none;
+header {
   padding: 1rem;
   width: 100%;
   padding-right: 5rem;
-  display: flex;
   background-color: rgba(115,68,184,0.2);
-  justify-content: flex-end;
+  position: sticky;
+  top: 0rem;
+  display:flex;
+
+  > div{
+    flex: 1;
+  }
+}
+a:nth-child(1) {
+  justify-content: flex-start;
 }
 a {
   margin: 0 0.5rem 0 0.5rem; 
@@ -46,7 +54,7 @@ a:focus {
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -54,4 +62,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

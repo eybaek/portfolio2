@@ -10,8 +10,8 @@ function Header({}: Props) {
         Eunyoung
       </Link>
       <div></div>
-      <Link href="/info" className="bg-blue-200 rounded px-4 py-2">
-        Info
+      <Link href="/about" className="bg-blue-200 rounded px-4 py-2">
+        About
       </Link>
       <Link href="/skill" className="bg-blue-200 rounded px-4 py-2">
         Skill

@@ -10,7 +10,15 @@
 
 body {
   margin : 0;
-  background: #303030;
+  background-color: #28223F;
+  font-family: Montserrat, sans-serif;
+	display: flex;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+
   color: white;
   overflow: scroll;
 }
@@ -18,8 +26,8 @@ header {
   padding: 1rem;
   width: 100%;
   padding-right: 5rem;
-  background-color: rgba(115,68,184,0.2);
-  position: sticky;
+  background-color: rgba(115,68,184,1);
+  position: fixed;
   top: 0rem;
   display:flex;
 
@@ -64,19 +72,6 @@ a:focus {
 	box-sizing: border-box;
 }
 
-body {
-	background-color: #28223F;
-	font-family: Montserrat, sans-serif;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-
-	min-height: 100vh;
-	margin: 0;
-}
-
 h3 {
 	margin: 10px 0;
 }
@@ -96,13 +91,14 @@ p {
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #B3B8CD;
-	padding-top: 30px;
-	position: relative;
-	width: 350px;
+	padding-top: 3rem;
+  margin-top: 10rem;
+	width: 22rem;
 	max-width: 100%;
 	text-align: center;
 }
 
+/*
 .card-container .pro {
 	color: #231E39;
 	background-color: #FEBB0B;
@@ -114,6 +110,7 @@ p {
 	top: 30px;
 	left: 30px;
 }
+*/
 
 .card-container .round {
 	border: 1px solid #03BFCB;
@@ -162,11 +159,6 @@ button.primary.ghost {
 
 /****** timeline style ******/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
-body{
-  padding:0;
-  margin:0;
-  font-family: 'Montserrat', sans-serif;
-}
 h1{
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 900;
@@ -174,11 +166,11 @@ h1{
   text-align:center;
 }
 .timeline{
-  position:relative;
-  margin:50px auto;
-  padding:40px 0;
-  width:1000px;
-  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  padding: 3rem 0;
+  width: 100rem;
+  box-sizing: border-box;
 }
 .timeline:before{
   content:'';
@@ -282,9 +274,14 @@ h1{
   }
 }
 @media(max-width:767px){
+  .card-container {
+    width: 70%;
+    margin-left: -2rem;
+  }
   .timeline{
     width:100%;
     padding-bottom:0;
+    margin-left: 3rem;
   }
   h1{
     font-family: 'Noto Sans KR', sans-serif;
@@ -331,6 +328,7 @@ h1{
 } */
 
 
+/* Home */
 a:hover {
   text-decoration: underline
 }

@@ -29,7 +29,6 @@ function Info() {
           </ul>
         </div>
       </div>
-      <h1>Careers</h1>
       <div className="timeline">
         <ul>
           <li>

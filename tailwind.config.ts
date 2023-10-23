@@ -16,5 +16,13 @@ const config: Config = {
     },
   },
   plugins: [],
+  colors: {
+    'text': '#f7f1fe',
+    'background': '#16042a',
+    'primary': '#b610bc',
+    'secondary': '#182a04',
+    'accent': '#1be614',
+   },
+   
 }
 export default config

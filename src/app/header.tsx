@@ -13,12 +13,12 @@ function Header({}: Props) {
       <Link href="/about" className="bg-blue-200 rounded px-4 py-2">
         About
       </Link>
-      <Link href="/skill" className="bg-blue-200 rounded px-4 py-2">
-        Skill
-      </Link>
       <Link href="/project" className="bg-blue-200 rounded px-4 py-2">
         Project
       </Link>
+      {/* <Link href="/skill" className="bg-blue-200 rounded px-4 py-2">
+        Skill
+      </Link> */}
     </header>
   )
 }
